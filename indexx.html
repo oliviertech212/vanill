@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,130 +10,143 @@
     <!-- css styling -->
     <style>
         :root {
-  /* dark shades of primary color*/
-  --clr-primary-1: hsl(205, 86%, 17%);
-  --clr-primary-2: hsl(205, 77%, 27%);
-  --clr-primary-3: hsl(205, 72%, 37%);
-  --clr-primary-4: hsl(205, 63%, 48%);
-  /* primary/main color */
-  --clr-primary-5: #49a6e9;
-  /* lighter shades of primary color */
-  --clr-primary-6: hsl(205, 89%, 70%);
-  --clr-primary-7: hsl(205, 90%, 76%);
-  --clr-primary-8: hsl(205, 86%, 81%);
-  --clr-primary-9: hsl(205, 90%, 88%);
-  --clr-primary-10: hsl(205, 100%, 96%);
-  /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-2: hsl(211, 39%, 23%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
-  /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-6: hsl(209, 23%, 60%);
-  --clr-grey-7: hsl(211, 27%, 70%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(210, 36%, 96%);
-  --clr-white: #fff;
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
-  --clr-green-dark: hsl(125, 67%, 44%);
-  --clr-green-light: hsl(125, 71%, 66%);
-  --clr-secondary: hsla(182, 63%, 54%);
-  --clr-black: #222;
-  --ff-primary: "Roboto", sans-serif;
-  --ff-secondary: "Open Sans", sans-serif;
-  --transition: all 0.3s linear;
-  --spacing: 0.25rem;
-  --radius: 0.5rem;
-  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --max-width: 1170px;
-  --fixed-width: 620px;
-}
-        #home
-        {
+            /* dark shades of primary color*/
+            --clr-primary-1: hsl(205, 86%, 17%);
+            --clr-primary-2: hsl(205, 77%, 27%);
+            --clr-primary-3: hsl(205, 72%, 37%);
+            --clr-primary-4: hsl(205, 63%, 48%);
+            /* primary/main color */
+            --clr-primary-5: #49a6e9;
+            /* lighter shades of primary color */
+            --clr-primary-6: hsl(205, 89%, 70%);
+            --clr-primary-7: hsl(205, 90%, 76%);
+            --clr-primary-8: hsl(205, 86%, 81%);
+            --clr-primary-9: hsl(205, 90%, 88%);
+            --clr-primary-10: hsl(205, 100%, 96%);
+            /* darkest grey - used for headings */
+            --clr-grey-1: hsl(209, 61%, 16%);
+            --clr-grey-2: hsl(211, 39%, 23%);
+            --clr-grey-3: hsl(209, 34%, 30%);
+            --clr-grey-4: hsl(209, 28%, 39%);
+            /* grey used for paragraphs */
+            --clr-grey-5: hsl(210, 22%, 49%);
+            --clr-grey-6: hsl(209, 23%, 60%);
+            --clr-grey-7: hsl(211, 27%, 70%);
+            --clr-grey-8: hsl(210, 31%, 80%);
+            --clr-grey-9: hsl(212, 33%, 89%);
+            --clr-grey-10: hsl(210, 36%, 96%);
+            --clr-white: #fff;
+            --clr-red-dark: hsl(360, 67%, 44%);
+            --clr-red-light: hsl(360, 71%, 66%);
+            --clr-green-dark: hsl(125, 67%, 44%);
+            --clr-green-light: hsl(125, 71%, 66%);
+            --clr-secondary: hsla(182, 63%, 54%);
+            --clr-black: #222;
+            --ff-primary: "Roboto", sans-serif;
+            --ff-secondary: "Open Sans", sans-serif;
+            --transition: all 0.3s linear;
+            --spacing: 0.25rem;
+            --radius: 0.5rem;
+            --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+            --max-width: 1170px;
+            --fixed-width: 620px;
+        }
+
+        #home {
             display: block;
             min-height: 100vh;
             background: linear-gradient(rgba(63, 208, 212, 0.5), rgba(0, 0, 0, 0.7)),
-           url(image/tours/rwandatours.jfif) center/cover no-repeat;
+                url(tours/rwandatours.jfif) center/cover no-repeat;
         }
-        #nav .nav-centering{
+
+        #nav .nav-centering {
             /* background-color:green; */
-            display:flex;
+            display: flex;
             align-items: center;
             justify-content: space-around;
-            
-        }
-        .links-container .links{
-            list-style-type: none;
-            display: flex;
-           
-            
-        }
-        .links-container .links li{
-            padding: 15px;
-            text-transform: capitalize;
-            
 
         }
-        .links-container .links li a{
+
+        .links-container .links {
+            list-style-type: none;
+            display: flex;
+
+
+        }
+
+        .links-container .links li {
+            padding: 15px;
+            text-transform: capitalize;
+
+
+        }
+
+        .links-container .links li a {
             text-decoration: none;
             color: whitesmoke;
             font-size: larger;
             font-weight: bolder;
 
         }
-        .banner{
-            margin-top: 300px; 
+
+        .banner {
+            margin-top: 300px;
             text-align: center;
             justify-content: center;
             padding: 10px;
             color: white;
-            
+
         }
-        .banner h1{
+
+        .banner h1 {
             font-size: xx-large;
             text-transform: uppercase;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         }
-        .banner a{
+
+        .banner a {
             font-size: larger;
             color: white;
             border: 2px solid white;
-            text-transform:uppercase;
+            text-transform: uppercase;
             text-decoration: none;
             padding: 12px;
         }
+
         /* styling section */
-        .section{
+        .section {
             text-align: center;
         }
 
-        #about{
-            min-height:50vh;
+        #about {
+            min-height: 50vh;
         }
-        #service{
-            min-height:50vh;
+
+        #service {
+            min-height: 50vh;
             background-color: lightgray;
         }
-        #tour{
-            min-height:50vh;
+
+        #tour {
+            min-height: 50vh;
         }
+
         /* footer styling */
-        footer{
+        footer {
             background-color: cornflowerblue;
         }
-        .nav-toggle{
-            
+
+        .nav-toggle {
+
 
             visibility: hidden;
-             
+
         }
+
         /* with lessthan 768px */
         @media (max-width: 768px) {
-            .nav-toggle{
+            .nav-toggle {
                 width: 30px;
                 height: 30px;
                 color: black;
@@ -140,87 +154,96 @@
                 visibility: visible;
                 margin-right: 10px;
             }
-            #nav .nav-centering{
-                display:block;
-                
+
+            #nav .nav-centering {
+                display: block;
+
             }
-            .links-container{
+
+            .links-container {
                 /* visibility: hidden; */
                 display: none;
-               
+
             }
-            #nav .nav-centering .nav-header{
+
+            #nav .nav-centering .nav-header {
                 margin-left: 5px;
                 margin-right: 10px;
                 width: 100%;
-                
+
                 display: flex;
                 align-items: center;
-                justify-content:space-between;
+                justify-content: space-between;
 
-                
+
             }
-            .display{
-            display:block;
-            /* background-color: #fff; */
-            
+
+            .display {
+                display: block;
+                /* background-color: #fff; */
+
+            }
+
+            .display .links {
+                margin-right: 10px;
+                color: black;
+                display: grid;
+                grid-template-columns: auto auto;
+            }
+
+
         }
-        .display .links{
-            margin-right: 10px;
-            color: black;
-            display:grid;
-            grid-template-columns:auto auto;
-        }
-            
-            
-        }
+
         /* called stylse in javasccript */
-        
+
 
 
         /* for fixed nav during scroll */
-        .fixed-nav{
+        .fixed-nav {
             width: 100%;
-            position:fixed;
+            position: fixed;
             top: 0;
             left: 0;
             box-shadow: var(--light-shadow);
-            background: var(--clr-primary-9); 
+            background: var(--clr-primary-9);
         }
-        .fixed-nav .links li a{
+
+        .fixed-nav .links li a {
             color: black;
 
         }
+
         .fixed-nav .links a:hover {
-  color: var(--clr-secondary);
-}
+            color: var(--clr-secondary);
+        }
 
 
 
         /* butoon for back to top */
-        .top-link{
+        .top-link {
             /* display: none; */
             font-size: xx-large;
             visibility: hidden;
             color: black;
-             animation:bounce 2s ease-in-out infinite;
-             background-color: #49a6e9;
-              position:fixed;
+            animation: bounce 2s ease-in-out infinite;
+            background-color: #49a6e9;
+            position: fixed;
             bottom: 50px;
             right: 0;
         }
-        .show{
+
+        .show {
             /* height: 200; */
             visibility: visible;
             z-index: 100;
-           
-            
-           
-        }
 
+
+
+        }
     </style>
 
 </head>
+
 <body>
     <header id="home">
         <!-- navbar -->
@@ -257,13 +280,13 @@
         <div class="banner">
             <div class="container">
                 <h1>scroll project</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur 
-                    adipisicing elit. Quasi nemo temporibus ipsa 
+                <p>Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Quasi nemo temporibus ipsa
                     perspiciatis voluptatem ullam blanditiis qui <br>
                     voluptas officiis maxime consectetur, nesciunt
                     rerum labore numquam omnis vitae consequatur.
                 </p>
-                <a href="#tour"class="scoll-link btn btn-white">explore tours &raquo;</a>
+                <a href="#tour" class="scoll-link btn btn-white">explore tours &raquo;</a>
             </div>
         </div>
 
@@ -290,26 +313,26 @@
     <!-- back to top -->
     <a class="scroll-link top-link" href="#home">
         top
-            <i class="fas fa-arrow-up"></i>
+        <i class="fas fa-arrow-up"></i>
     </a>
-    
+
 
 
     <!-- javaascript code for tourproject -->
     <script>
         // date for copyright
-        const date=document.getElementById("date");
-        date.innerHTML=new Date().getFullYear()
+        const date = document.getElementById("date");
+        date.innerHTML = new Date().getFullYear()
 
 
         // close links for navbar
-        const navtogggle=document.querySelector(".nav-toggle");
-        const dvlinkscontainer=document.querySelector(".links-container");
-        const ullinks=document.querySelector(".links");
+        const navtogggle = document.querySelector(".nav-toggle");
+        const dvlinkscontainer = document.querySelector(".links-container");
+        const ullinks = document.querySelector(".links");
 
 
 
-        navtogggle.addEventListener("click",()=>{
+        navtogggle.addEventListener("click", () => {
             // dvlinkscontainer.classList.toggle("display");
             // const linksheight=ullinks.getBoundingClientRect().height;
             // const dvcontainerheight= dvlinkscontainer.getBoundingClientRect().height;
@@ -327,26 +350,26 @@
 
 
         // during scroll nsvbsr remain  fixed
-        const navbar=document.getElementById("nav");
-        const toplink=document.querySelector(".top-link");
+        const navbar = document.getElementById("nav");
+        const toplink = document.querySelector(".top-link");
 
 
-        window.addEventListener("scroll",()=>{
-            const scrollheight=window.pageYOffset;
-            const navheight=navbar.getBoundingClientRect().height;
-            
-            if (scrollheight>navheight) {
+        window.addEventListener("scroll", () => {
+            const scrollheight = window.pageYOffset;
+            const navheight = navbar.getBoundingClientRect().height;
+
+            if (scrollheight > navheight) {
                 navbar.classList.add("fixed-nav");
-                
+
             }
-            else{
+            else {
                 navbar.classList.remove("fixed-nav");
             }
-            if (scrollheight >200) {
+            if (scrollheight > 200) {
                 toplink.classList.add("show");
 
-                
-            }else{
+
+            } else {
                 toplink.classList.remove("show");
 
             }
@@ -356,6 +379,7 @@
 
     </script>
 
-    
+
 </body>
+
 </html>
