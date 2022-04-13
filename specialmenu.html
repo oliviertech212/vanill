@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>restourant menu</title>
+    <!-- font awersome -->
+    <link rel="stylesheet" href="./fontawesome/css/all.min.css">
+    <style>
+        body{
+            background-color: whitesmoke;
+            display: block;
+            text-align: center;
+            margin: auto;
+            width: auto;
+            padding: 20px;
+        }
+        .title{
+            display:block;
+            text-align: center;
+            /* justify-content: center;
+            align-content: center; */
+        }
+        .title h2{
+            text-transform: capitalize;
+        }
+         hr{
+            margin-top: -10px;
+            width:5rem;
+            height: 0.1rem;
+            background-color:black;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .btn-container button{
+            text-transform: capitalize;
+            border-radius: 10px;
+        }
+        .section-center{
+             /* width:90vw;
+             margin: 0 auto;
+             max-width: 1170px;  */
+             display:grid;
+             grid-template-columns: auto auto auto auto;
+             gap: 2rem 1.5rem;
+             margin-top: 20px;
+
+        }
+        /* for article content */
+        .mneu-item{
+            display:flex;
+        }
+        img{
+            width: 260px;
+            height: 260px;
+
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+        }
+        /* back ground color for btn */
+        .filter-btn{
+            background-color:pink;
+        }
+        /* toggle button */
+        .toggle{
+            width:30px;
+            height: 30px;
+            visibility: hidden;
+
+        }
+        .toggle:hover{
+            transform: rotate(90deg);
+            background-color:bisque;
+            color:black;
+        }
+        @media (max-width: 768px){
+            .toggle{
+                visibility: visible;
+                position:absolute;
+                top: 20px;
+                left: 10px;
+            }
+            .btn-container{
+
+                /* display: block; */
+                background-color:whitesmoke;
+                border-radius:0px;
+                display: none;
+            }
+            .filter-btn{
+            background-color:white;
+        }
+            .display{
+            display:flex;
+        }
+        .section-center{
+             /* width:90vw;
+             margin: 0 auto;
+             max-width: 1170px;  */
+             display:grid;
+             grid-template-columns: auto auto ;
+             gap:1rem 1.5rem;
+             margin-top: 10px;
+
+        }
+        img{
+            width:150px;
+            height: 150px;;
+        }
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="menu">
+        <dv>
+            <button class="toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </dv>
+        
+        <!-- title -->
+        <dv class="title">
+            <h2>our menu</h2>
+            <hr>
+        </dv>
+
+        <dv class="btn-container">
+            <!-- <button></button> -->
+
+        </dv>
+        <dv class="section-center">
+            <!-- single item -->
+            <!-- <article class="mneu-item">
+                 <img src="" alt=""> 
+                <dv class="item-info">
+                    <header>
+                        <h4>name of item</h4>
+                        <h4>$14</h4>
+                    </header>
+                    <p class="item-text">
+                        Lorem llendus cumque labore hic assumenda dolores pariatur veritatis iusto.
+                    </p>
+                </dv>
+            </article> -->
+
+        </dv>
+    </section>
+    <script src="specialmenu.js">
+
+    </script>
+    
+</body>
+</html>
